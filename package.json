@@ -1,0 +1,48 @@
+{
+  "name": "zululethu",
+  "version": "1.0.0",
+  "description": "A project that will mature to a permissioned  Avalanche Subnet / it will deploy a gegistry contract that will register credential schemas for apps/ users/ and orgs running dapps on the C-Chain and more",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xolani-Qwabe/zululethu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Xolani-Qwabe/zululethu/issues"
+  },
+  "homepage": "https://github.com/Xolani-Qwabe/zululethu#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/express-session": "^1.18.1",
+    "@types/mongoose": "^5.11.96",
+    "nodemon": "^3.1.9",
+    "socket.io-client": "^4.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.13.2"
+  }
+}
